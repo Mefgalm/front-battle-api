@@ -64,9 +64,9 @@
     (repl/migrate config)
     (api
      {:swagger {:ui       "/"
-                :spec     "/swagger.json"
-                :basePath "/battle"
-                :data     {:info {:title "Front battle"}}}}
+                :spec     "/swagger.json"                
+                :data     {:info {:title "Front battle"}
+                           :basePath "/battle"}}}
 
      (context "/auth/sign-up" []
        (resource
