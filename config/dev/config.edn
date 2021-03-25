@@ -1,0 +1,8 @@
+{:db {:dbtype   "postgresql"
+      :dbname   "front-battle-2"
+      :host     "localhost"
+      :user     "postgres"
+      :password "474413"
+            ;; :ssl true
+            ;; :sslfactory "org.postgresql.ssl.NonValidatingFactory"
+      }}
